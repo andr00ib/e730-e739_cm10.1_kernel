@@ -1310,7 +1310,10 @@ void task_dirty_inc(struct task_struct *tsk);
 /* readahead.c */
 #define VM_MAX_READAHEAD	1024	/* kbytes */
 #define VM_MIN_READAHEAD	32	/* kbytes (includes current page) */
+<<<<<<< HEAD
 /* andr00ib jb kernel */
+=======
+>>>>>>> 5dd48c7... increase max readahead values
 
 int force_page_cache_readahead(struct address_space *mapping, struct file *filp,
 			pgoff_t offset, unsigned long nr_to_read);
